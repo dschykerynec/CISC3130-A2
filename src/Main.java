@@ -3,7 +3,7 @@ import java.io.*;
 public class Main {
 	public static void main(String[] args) throws NumberFormatException, IOException
 	{
-		File folder = new File("C:\\Users\\Schykerynec Surface\\eclipse-workspace\\Assignment 2\\charts");
+		File folder = new File("../charts");
 		File[] charts = folder.listFiles();
 
 		// 200 tracks, each track may be by a different artist
